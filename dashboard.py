@@ -33,10 +33,12 @@ def btn_clicked_steak():
     import steak
 
 def btn_clicked_bakmie():
-    import next
+    window.destroy()
+    import bakmie
 
 def btn_clicked_pasta():
-    import next
+    window.destroy()
+    import pasta
 
 def btn_clicked_logout():
     window.destroy()
